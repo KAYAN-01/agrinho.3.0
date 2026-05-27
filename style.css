@@ -6,10 +6,10 @@
 
 /* Reset e Variáveis */
 :root {
-    --primary-green: #ADFF2F;
-    --primary-cyan: #00D9FF;
+    --primary-green: #2f86ff;
+    --primary-cyan: #ff4800;
     --primary-black: #0A0E27;
-    --primary-gold: #FFD700;
+    --primary-gold: #6ec6b9;
     --secondary-gray: #1a1f3a;
     --text-light: #ffffff;
     --text-dark: #0A0E27;
@@ -341,19 +341,19 @@ body {
     background: var(--primary-gold);
     cursor: pointer;
     border: none;
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 10px rgba(43, 182, 19, 0.5);
     transition: var(--transition);
 }
 
 .slider::-moz-range-thumb:hover {
     width: 28px;
     height: 28px;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+    box-shadow: 0 0 20px rgba(255, 0, 43, 0.8);
 }
 
 .slider-value {
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(187, 241, 235, 0.7);
     font-weight: 500;
 }
 
@@ -368,7 +368,7 @@ body {
     border-radius: var(--border-radius);
     border: 2px solid;
     transition: var(--transition);
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(186, 231, 230, 0.05);
 }
 
 .resultado-card h3 {
